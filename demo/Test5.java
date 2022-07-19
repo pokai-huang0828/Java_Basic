@@ -1,4 +1,5 @@
 package demo;
+import java.text.DecimalFormat;
 
 public class Test5{
 	public static void main(String[] args) {
@@ -10,5 +11,13 @@ public class Test5{
 		String message = String.format("%,.2f", balance);
 
 		System.out.println(message); // result = 123,456,79
+
+		// ==================================================
+
+		double exchange = 12345.5;
+
+		DecimalFormat nf = new DecimalFormat("####,####.00");
+
+		System.out.println(nf.format(exchange)); // result = 1,2345.50
 	}
 }
