@@ -14,5 +14,9 @@ public class Hello8 {
 
 		// 判斷是否偶數
 		System.out.println( score % 2 == 0 ? "偶數" : "基數");
+
+		if(score > 90) {
+			System.out.println("好棒喔！！");
+		}
 	}
 }

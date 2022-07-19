@@ -22,5 +22,10 @@ public class Hello6 {
 
 		System.out.println("您的BMI值為:" + bmi);
 
+
+		// nextDouble() 轉換成 double
+		// nextInt() 轉換成 int
+		// nextShort() 轉換成 short
+
 	}
 }
