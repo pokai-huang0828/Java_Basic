@@ -74,5 +74,10 @@ public class Test3 {
 			default:
 				System.out.println("Error, 資料錯誤.");
 		}
+
+		// 擷取字串區間
+		String name = "Kenny";
+		System.out.println(name.substring(2,4)); // 顯示 2 - 3
+
 	}
 }
